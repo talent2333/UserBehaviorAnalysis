@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/talent2333/demo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:talent2333/UserBehaviorAnalysis_xty.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\workspace" />
