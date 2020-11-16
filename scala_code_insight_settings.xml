@@ -1,0 +1,7 @@
+<application>
+  <component name="ScalaCodeInsightSettings">
+    <option name="showPropertyType" value="true" />
+    <option name="showLocalVariableType" value="true" />
+    <option name="showObviousType" value="true" />
+  </component>
+</application>

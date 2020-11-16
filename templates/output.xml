@@ -1,0 +1,12 @@
+<templateSet group="output">
+  <template name="sop" value="System.out::println" description="System.out::println" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="scc" value="//创建SparkConf并设置App名称&#10;val conf = new SparkConf().setAppName(&quot;SparkCoreTest&quot;).setMaster(&quot;local[*]&quot;)&#10;//创建上下文参数&#10;val sc = new SparkContext(conf)&#10;&#10;//关闭连接&#10;sc.stop()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>

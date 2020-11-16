@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="DeCompileJavaClass" description="javap反编译工具" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$JDKPath$\bin\javap.exe" />
+      <option name="PARAMETERS" value="-v $FileClass$" />
+      <option name="WORKING_DIRECTORY" value="$OutputPath$" />
+    </exec>
+  </tool>
+</toolSet>

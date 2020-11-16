@@ -1,0 +1,71 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="pane" />
+      <item value="The type of {@link Window Windows} on which this trigger can operate." />
+      <item value="that fires once the count of elements in a pane reaches the given count." />
+      <item value="arbitrary" />
+      <item value="Specifies a minimum and a maximum time interval for how long idle state, i.e., state which * was not updated, will be retained. * State will never be cleared until it was idle for less than the minimum time and will never * be kept if it was idle for more than the maximum time. * * &lt;p&gt;When new data arrives for previously cleaned-up state, the new data will be handled as if it * was the first data. This can result in previous results being overwritten. * * &lt;p&gt;Set to 0 (zero) to never clean-up the state. * * &lt;p&gt;NOTE: Cleaning up state requires additional bookkeeping which becomes less expensive for * larger differences of minTime and maxTime. The difference between minTime and maxTime must be * at least 5 minutes." />
+      <item value="violating capacity restrictions." />
+      <item value="A Watermark tells operators that no elements with a timestamp older or equal * to the watermark timestamp should arrive at the operator. Watermarks are emitted at the * sources and propagate through the operators of the topology. Operators must themselves emit * watermarks to downstream operators using * {@link org.apache.flink.streaming.api.operators.Output#emitWatermark(Watermark)}. Operators that * do not internally buffer elements can always forward the watermark that they receive. Operators * that buffer elements, such as window operators, must forward a watermark after emission of * elements that is triggered by the arriving watermark." />
+      <item value="Characteristic" />
+      <item value="* Very simple serialization schema for strings." />
+      <item value="schema" />
+      <item value="consecutive" />
+      <item value="zombie" />
+      <item value="verbose" />
+      <item value="* Called by cluster manager to offer resources on slaves. We respond by asking our active task * sets for tasks in order of priority. We fill each node with tasks in a round-robin manner so * that tasks are balanced across the cluster." />
+      <item value="Called by cluster manager to offer resources on slaves. We respond by asking our active task * sets for tasks in order of priority. We fill each node with tasks in a round-robin manner so * that tasks are balanced across the cluster." />
+      <item value="Result type for trigger methods. This determines what happens with the window, * for example whether the window function should be called, or the window * should be discarded. * * &lt;p&gt;If a {@link Trigger} returns {@link #FIRE} or {@link #FIRE_AND_PURGE} but the window does not * contain any data the window function will not be invoked, i.e. no data will be produced for the * window." />
+      <item value="* Returns the string representation of the {@code char} array * argument. The contents of the character array are copied; subsequent * modification of the character array does not affect the returned * string." />
+      <item value="/** * Copies the specified array, truncating or padding with zeros (if necessary) * so the copy has the specified length. For all indices that are * valid in both the original array and the copy, the two arrays will * contain identical values. For any indices that are valid in the * copy but not the original, the copy will contain &lt;tt&gt;0&lt;/tt&gt;. * Such indices will exist if and only if the specified length * is greater than that of the original array. *" />
+      <item value="Copies the specified array, truncating or padding with zeros (if necessary) * so the copy has the specified length. For all indices that are * valid in both the original array and the copy, the two arrays will * contain identical values. For any indices that are valid in the * copy but not the original, the copy will contain &lt;tt&gt;0&lt;/tt&gt;. * Such indices will exist if and only if the specified length * is greater than that of the original array." />
+      <item value="An append-only buffer similar to ArrayBuffer, but more memory-efficient for small buffers. * ArrayBuffer always allocates an Object array to store the data, with 16 entries by default, * so it has about 80-100 bytes of overhead. In contrast, CompactBuffer can keep up to two * elements in fields of the main object, and only allocates an Array[AnyRef] if there are more * entries than that. This makes it more efficient for operations like groupBy where we expect * some keys to have very few elements." />
+      <item value="keep up to" />
+      <item value="inclusive" />
+      <item value="/** * Execute the given body such that all RDDs created in this body will have the same scope. * * If nesting is allowed, any subsequent calls to this method in the given body will instantiate * child scopes that are nested within our scope. Otherwise, these calls will take no effect. * * Additionally, the caller of this method may optionally ignore the configurations and scopes * set by the higher level caller. In this case, this method will ignore the parent caller's * intention to disallow nesting, and the new scope instantiated will not have a parent. This * is useful for scoping physical operations in Spark SQL, for instance." />
+      <item value="disallow" />
+      <item value="A backend interface for scheduling systems that allows plugging in different ones under * TaskSchedulerImpl. We assume a Mesos-like model where the application gets resource offers as * machines become available and can launch tasks on them." />
+      <item value="assembly" />
+      <item value="Sets the partitioning of the DataStream so that the output tuples * are forwarded to the local subtask of the next component (whenever * possible)." />
+      <item value="intercept" />
+      <item value="Based loosely on Aggregator from Algebird: https://github.com/twitter/algebird" />
+      <item value="encapsulates" />
+      <item value="This program handles setting up the classpath with relevant Spark dependencies and provides * a layer over the different cluster managers and deploy modes that Spark supports." />
+      <item value="primitive" />
+      <item value="Primitives" />
+      <item value="retrieve" />
+      <item value="primitives" />
+      <item value="On input: an alignment field, if desired. * On output: the offsets of the alignment field." />
+      <item value="alignment" />
+      <item value="Gets the current value of the default locale for the specified Category * for this instance of the Java Virtual Machine." />
+      <item value="* Use this in most cases, it will consistently distribute partitions across all executors." />
+      <item value="Underlying" />
+      <item value="violating" />
+      <item value="but blames the caller of the method * for violating the condition." />
+      <item value="Privilege" />
+      <item value="Field Position" />
+      <item value="Delegate" />
+      <item value="DontCareFieldPosition defines no-op FieldDelegate. Its * singleton is used for the format methods that don't take a * FieldPosition." />
+      <item value="Suppose that the garbage collector determines at a certain point in time * that an object is &lt;a href=&quot;package-summary.html#reachability&quot;&gt;softly * reachable&lt;/a&gt;. At that time it may choose to clear atomically all soft * references to that object and all soft references to any other * softly-reachable objects from which that object is reachable through a chain * of strong references. At the same time or at some later time it will * enqueue those newly-cleared soft references that are registered with * reference queues." />
+      <item value="Soft reference objects, which are cleared at the discretion of the garbage * collector in response to memory demand. Soft references are most often used * to implement memory-sensitive caches." />
+      <item value="volatile" />
+      <item value="transient" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="136" />
+        <entry key="ENGLISH" value="136" />
+        <entry key="FRENCH" value="2" />
+        <entry key="DUTCH" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="JAPANESE" value="1" />
+        <entry key="ITALIAN" value="3" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+    <option name="translateDocumentation" value="false" />
+  </component>
+</application>
