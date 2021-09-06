@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="retrieved" />
+      <item value="* Returns a MessageDigest object that implements the specified digest * algorithm." />
       <item value="pane" />
       <item value="The type of {@link Window Windows} on which this trigger can operate." />
       <item value="that fires once the count of elements in a pane reaches the given count." />
@@ -49,13 +51,11 @@
       <item value="DontCareFieldPosition defines no-op FieldDelegate. Its * singleton is used for the format methods that don't take a * FieldPosition." />
       <item value="Suppose that the garbage collector determines at a certain point in time * that an object is &lt;a href=&quot;package-summary.html#reachability&quot;&gt;softly * reachable&lt;/a&gt;. At that time it may choose to clear atomically all soft * references to that object and all soft references to any other * softly-reachable objects from which that object is reachable through a chain * of strong references. At the same time or at some later time it will * enqueue those newly-cleared soft references that are registered with * reference queues." />
       <item value="Soft reference objects, which are cleared at the discretion of the garbage * collector in response to memory demand. Soft references are most often used * to implement memory-sensitive caches." />
-      <item value="volatile" />
-      <item value="transient" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="136" />
-        <entry key="ENGLISH" value="136" />
+        <entry key="CHINESE" value="137" />
+        <entry key="ENGLISH" value="138" />
         <entry key="FRENCH" value="2" />
         <entry key="DUTCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
